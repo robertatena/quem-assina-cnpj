@@ -364,4 +364,4 @@ else:
 
 st.markdown("---")
 st.caption("Aviso: A identificação de **quem assina** depende do contrato social/estatuto, das últimas alterações e de eventuais procurações. Esta ferramenta indica **prováveis signatários** via QSA quando disponível, e direciona para a fonte oficial (Junta/Diário Oficial). Para bureaus, utilize um **gateway** com as devidas credenciais e base legal (LGPD).")
-# quem-assina-cnpj
+# quem-assina-cnpjstreamlit run app.py --server.port 8501 --server.address 0.0.0.0

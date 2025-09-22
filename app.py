@@ -142,8 +142,6 @@ def try_all(cnpj: str, try_alts: bool)->Tuple[Dict[str,Any],List[Dict[str,Any]],
     return raw2,qsa,"desconhecido",errors
 
 # ========= UI =========
-st.title(APP_TITLE)
-st.caption(APP_CAPTION)
 
 with st.sidebar:
     st.subheader("⚙️ Configurações")
